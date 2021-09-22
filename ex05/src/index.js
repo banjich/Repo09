@@ -1,21 +1,21 @@
-function compareStricValues(m) {
+function compareStrictValues(m) {
     if (m != 55) {
         return "Not equal"
         }
         return "Equal"
 }
 
-compareStricValues(55);
-compareStricValues("55");
-compareStricValues("21");
-compareStricValues('12');
-compareStricValues("Doe");
+compareStrictValues(55);
+compareStrictValues("55");
+compareStrictValues("21");
+compareStrictValues('12');
+compareStrictValues("Doe");
 
 
-console.log(compareStricValues(55));
-console.log(compareStricValues("55"));
-console.log(compareStricValues("21"));
-console.log(compareStricValues('23'));
-console.log(compareStricValues("Doe"));
+console.log(compareStrictValues(55));
+console.log(compareStrictValues("55"));
+console.log(compareStrictValues("21"));
+console.log(compareStrictValues('12'));
+console.log(compareStrictValues("Doe"));
 
-module.exports = compareStricValues;
+module.exports = compareStrictValues;
